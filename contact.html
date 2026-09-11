@@ -77,12 +77,27 @@
 
 </div>
 
-<main class="project-body" style="margin-top:120px; margin-bottom:160px;">
+<main class="project-body" style="margin-top:100px; margin-bottom:140px;">
   <h1 class="project-title">contact.</h1>
-  <p class="project-description">
-    Replace with an email address, a short line about what you're open to, and/or a simple
-    mailto: link — e.g. <a href="mailto:you@example.com" style="text-decoration:underline;">you@example.com</a>.
-  </p>
+  <form class="contact-form" action="https://formsubmit.co/nldepaoli@gmail.com" method="POST">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <input type="hidden" name="_subject" value="New message from personal site">
+    <input type="hidden" name="_next" value="https://personal-site-ten-rosy-51.vercel.app/thank-you.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="_honey" style="display:none">
+    <button type="submit">Send</button>
+  </form>
 </main>
 
 <footer class="site-footer">
@@ -100,6 +115,7 @@
     </div>
   </div>
 </footer>
+<div class="micro-footer">by faun4flora&#169;</div>
 <script src="script.js"></script>
 
 </body>
