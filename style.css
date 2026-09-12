@@ -89,12 +89,6 @@ nav.primary-nav .submenu {
   min-width: 260px;
   white-space: nowrap;
 }
-/* Rightmost nav items open leftward so long URLs don't run off-screen */
-nav.primary-nav .nav-item.align-right .submenu {
-  left: auto;
-  right: 0;
-  text-align: right;
-}
 nav.primary-nav .nav-item:hover .submenu,
 nav.primary-nav .nav-item.open .submenu {
   opacity: 1;
