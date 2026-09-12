@@ -93,6 +93,7 @@ nav.primary-nav .submenu {
 nav.primary-nav .nav-item.align-right .submenu {
   left: auto;
   right: 0;
+  text-align: right;
 }
 nav.primary-nav .nav-item:hover .submenu,
 nav.primary-nav .nav-item.open .submenu {
